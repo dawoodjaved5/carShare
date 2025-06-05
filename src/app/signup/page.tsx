@@ -266,8 +266,8 @@ export default function SignupPage() {
     try {
       await account.createOAuth2Session(
         OAuthProvider.Google,
-        "http://localhost:3000/signup",
-        "http://localhost:3000/signup"
+        "https://car-share-dhcqimpgu-dawoodjaved5s-projects.vercel.app/dashboard",
+        "https://car-share-dhcqimpgu-dawoodjaved5s-projects.vercel.app/login"
       );
       console.log("Google signup initiated");
     } catch (error: any) {

@@ -101,8 +101,8 @@ export default function LoginPage() {
       setLoading(true);
       await account.createOAuth2Session(
         OAuthProvider.Google,
-        "http://localhost:3000/dashboard",
-        "http://localhost:3000/login"
+        "https://car-share-dhcqimpgu-dawoodjaved5s-projects.vercel.app/dashboard",
+        "https://car-share-dhcqimpgu-dawoodjaved5s-projects.vercel.app/login"
       );
       console.log("Google login initiated");
     } catch (error: any) {
