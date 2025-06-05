@@ -99,10 +99,12 @@ export default function LoginPage() {
   async function handleGoogleLogin() {
     try {
       setLoading(true);
+      const redirectSuccess = process.env.NEXT_PUBLIC_REDIRECT_SUCCESS!;
+      const redirectFail = process.env.NEXT_PUBLIC_REDIRECT_FAIL!;
       await account.createOAuth2Session(
         OAuthProvider.Google,
-        "/dashboard",
-        "/login"
+        redirectSuccess,
+        redirectFail
       );
       console.log("Google login initiated");
     } catch (error: any) {
