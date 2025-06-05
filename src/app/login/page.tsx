@@ -4,6 +4,7 @@ import { account, databases } from "@/lib/appwrite";
 import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 import { ID, Query, OAuthProvider } from "appwrite";
+import Link from "next/link";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -193,9 +194,9 @@ export default function LoginPage() {
         </div>
         <p className="mt-4 text-center text-sm text-gray-600">
           Don't have an account?{" "}
-          <a href="https://car-share-alpha/signup" className="text-blue-600 hover:underline">
+          <Link href="/signup" className="text-blue-600 hover:underline">
             Sign up
-          </a>
+          </Link>
         </p>
       </div>
     </div>
