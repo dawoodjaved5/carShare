@@ -399,21 +399,21 @@ export default function Dashboard() {
               Requests
             </button>
             <Link
-              href="/user-profile"
+              href="https://car-share-alpha/user-profile"
               className="w-full flex items-center px-4 py-3 rounded-lg text-gray-400 hover:bg-gray-800 hover:text-white transition-colors"
             >
               <UserIcon className="w-6 h-6 mr-3" />
               Profile
             </Link>
             <Link
-              href="/post-vehicle"
+              href="https://car-share-alpha/post-vehicle"
               className="w-full flex items-center px-4 py-3 rounded-lg text-gray-400 hover:bg-gray-800 hover:text-white transition-colors"
             >
               <PlusIcon className="w-6 h-6 mr-3" />
               Post Vehicle
             </Link>
             <Link
-              href="/explore"
+              href="https://car-share-alpha/explore"
               className="w-full flex items-center px-4 py-3 rounded-lg text-gray-400 hover:bg-gray-800 hover:text-white transition-colors"
             >
               <MagnifyingGlassIcon className="w-6 h-6 mr-3" />
@@ -468,7 +468,7 @@ export default function Dashboard() {
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
               <h3 className="text-xl sm:text-2xl font-semibold text-white">Your Posted Cars</h3>
               <Link
-                href="/post-vehicle"
+                href="https://car-share-alpha/post-vehicle"
                 className="w-full sm:w-auto flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-sm"
               >
                 <PlusIcon className="w-5 h-5 mr-2" />
@@ -501,7 +501,7 @@ export default function Dashboard() {
               <div className="text-center py-12">
                 <p className="text-gray-400">No cars posted yet.</p>
                 <Link
-                  href="/post-vehicle"
+                  href="https://car-share-alpha/post-vehicle"
                   className="inline-flex items-center mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
                 >
                   <PlusIcon className="w-5 h-5 mr-2" />
