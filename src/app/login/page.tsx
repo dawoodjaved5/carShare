@@ -101,8 +101,8 @@ export default function LoginPage() {
       setLoading(true);
       await account.createOAuth2Session(
         OAuthProvider.Google,
-        "https://car-share-alpha/dashboard",
-        "https://car-share-alpha/login"
+        "https://car-share-alpha.vercel.app/dashboard",
+        "https://car-share-alpha.vercel.app/login"
       );
       console.log("Google login initiated");
     } catch (error: any) {

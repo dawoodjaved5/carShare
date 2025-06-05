@@ -100,7 +100,7 @@ export default function LoginPage() {
     try {
       setLoading(true);
       await account.createOAuth2Session(
-        OAuthProvider.Google,// Using string "google" as per your preference
+        OAuthProvider.Google,
         "https://car-share-alpha/dashboard",
         "https://car-share-alpha/login"
       );
