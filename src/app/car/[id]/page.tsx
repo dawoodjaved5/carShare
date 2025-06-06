@@ -159,7 +159,7 @@ export default function CarDetails() {
             <h1 className="text-4xl md:text-5xl font-bold mb-2">
               {car.make} {car.model}
             </h1>
-            <p className="text-2xl text-gray-300">${car.rent}/day</p>
+            <p className="text-2xl text-gray-300">PKR{car.rent}/day</p>
           </div>
         </div>
       </div>
@@ -186,7 +186,7 @@ export default function CarDetails() {
                 </div>
                 <div>
                   <p className="text-gray-400 mb-1">Daily Rate</p>
-                  <p className="text-xl">${car.rent}</p>
+                  <p className="text-xl">PKR{car.rent}</p>
                 </div>
               </div>
             </div>

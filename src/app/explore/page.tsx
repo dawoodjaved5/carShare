@@ -283,7 +283,7 @@ export default function Explore() {
                     {car.make} {car.model}
                   </h3>
                   <div className="space-y-2 mb-4">
-                    <p className="text-gray-400">Rent: ${car.rent}/day</p>
+                    <p className="text-gray-400">Rent: PKR{car.rent}/day</p>
                   </div>
                   <div className="space-y-2">
                     {user && user.$id !== car.ownerId && (

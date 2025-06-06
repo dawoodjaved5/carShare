@@ -538,7 +538,7 @@ export default function Dashboard() {
                         {car.make} {car.model}
                       </h4>
                       <div className="space-y-2">
-                        <p className="text-gray-400">Rent: ${car.rent}/day</p>
+                        <p className="text-gray-400">Rent: PKR{car.rent}/day</p>
                         <p className="text-gray-400">Contact: {car.phoneNumber}</p>
                       </div>
                       <div className="mt-4 flex flex-col sm:flex-row gap-2">
